@@ -108,7 +108,7 @@ const IntensityChart = ({ data }) => {
     },
     animation: {
       duration: 4000,
-      easing: 'easeInOutQuart', // Use a smooth easing function
+      easing: 'easeInOutQuart', 
       mode: 'progressive',
     },
   };

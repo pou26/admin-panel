@@ -20,7 +20,7 @@ const PieChart = ({ data }) => {
       "#32CD32",
       "#FF4500",
       "#9400D3",
-      // Add more colors as needed
+      
     ];
     return colors[index % colors.length];
   };

@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <Box
       py={2}
-      bgGradient="linear(to-b, #4F3BA9, #9068BE)"
+      bgGradient="linear(to-b, #ffb3ff, #ffe6ff)"
       position="sticky"
       top={0}
       zIndex={100}
@@ -92,7 +92,7 @@ const Navbar = () => {
               </Menu>
               <Avatar
                 size="sm"
-                src="https://avatars.githubusercontent.com/u/110231091?s=400&u=dfefa66e38cbdd84674e1a9f55737a51827b8725&v=4"
+                src="https://static.vecteezy.com/system/resources/previews/002/002/257/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg"
                 ml={3}
               />
             </Flex>

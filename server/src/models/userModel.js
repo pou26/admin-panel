@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dataSchema = new mongoose.Schema({
+const userschema = new mongoose.Schema({
     end_year: String,
     intensity: Number,
     sector: String,
@@ -17,9 +17,7 @@ const dataSchema = new mongoose.Schema({
     pestle: String,
     source: String,
     title: String,
-    likelihood: Number
-});
-
-const Data = mongoose.model('Data', dataSchema);
-
-module.exports = Data;
+    likelihood: Number,
+  });
+  
+  module.exports = mongoose.model('User', userschema);

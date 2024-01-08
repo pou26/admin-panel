@@ -49,7 +49,7 @@ const LoginPage = () => {
             <Input
               type="text"
               placeholder="Enter your username"
-              value="admin@gmail.com"
+              value="poushali@gmail.com"
               borderColor="white" 
               disabled
             />
@@ -59,7 +59,7 @@ const LoginPage = () => {
             <Input
               type="password"
               placeholder="Enter your password"
-              value="admin" 
+              value="poushali" 
               borderColor="white"
               disabled
             />
@@ -71,7 +71,7 @@ const LoginPage = () => {
           <AlertDialog isOpen={isOpen} leastDestructiveRef={undefined}>
             <AlertDialogOverlay>
               <AlertDialogContent bg="purple.800" color="white">
-                <AlertDialogHeader>Welcome Admin !!!</AlertDialogHeader>
+                <AlertDialogHeader>Welcome Admin!</AlertDialogHeader>
                 <AlertDialogBody>
                   Redirecting to the dashboard page...
                 </AlertDialogBody>

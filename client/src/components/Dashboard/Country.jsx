@@ -36,7 +36,7 @@ const CountryChart = ({ data }) => {
 
     const chartBackgroundColor =
       colorMode === "light"
-        ? "rgba(79, 59, 169, 0.7)"
+        ? "pink"
         : "rgba(144, 104, 190, 0.7)";
 
     setChartData({
